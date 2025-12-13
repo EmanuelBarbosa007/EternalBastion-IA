@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &586518789112695506
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.959846
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7886996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -19.24545
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7640558969779515294, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_Name
+      value: PartToRotate
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      propertyPath: m_Name
+      value: torre3_1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: -7640558969779515294, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+    - {fileID: -5568371526223589888, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6748834427300390438}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 640233658232671452}
+  m_SourcePrefab: {fileID: 100100000, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+--- !u!1 &352075077005260675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 19319d640c9f48244a550554350c4ffe, type: 3}
+  m_PrefabInstance: {fileID: 586518789112695506}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6748834427300390438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352075077005260675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d430dbb510e79d2409f8cfd50bca624a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 23
+  fireRate: 1
+  rotationSpeed: 10
+  bulletPrefab: {fileID: 4114516598763455123, guid: 486b6120a9769774fa8e5605453b6d59, type: 3}
+  firePoint: {fileID: 0}
+  partToRotate: {fileID: 0}
+  level1Model: {fileID: 2595692065050069959, guid: 840ff71cf9046f24e80c4153bd788aca, type: 3}
+  level2Model: {fileID: 4456206772451347378, guid: 8cea06f04173b6c4f867724879d03289, type: 3}
+  level3Model: {fileID: 8988602450940471858, guid: 3a17da34277b98c469bd064ccbd7cbd1, type: 3}
+  towerName: PieringTower
+  level: 1
+  costLevel1: 150
+  upgradeCostLevel2: 100
+  upgradeCostLevel3: 150
+  totalInvested: 0
+  myTowerSpot: {fileID: 0}
+--- !u!114 &640233658232671452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352075077005260675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f76b9ad95dcf64db89676dffd7413e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
